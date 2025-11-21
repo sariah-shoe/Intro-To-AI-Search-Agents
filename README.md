@@ -2,6 +2,7 @@
 Completed code for Intro to AI - Assignment 1. I implemented depth first search, breadth first search, uniform cost search, and A* search to navigate Pacman.
 
 ## To Run
+```
 Usage: 
     USAGE:      python pacman.py <options>
     EXAMPLES:   (1) python pacman.py
@@ -48,13 +49,16 @@ Options:
                         Turns on exception handling and timeouts during games
   --timeout=TIMEOUT     Maximum length of time an agent can spend computing in
                         a single game [Default: 30]
+```
 
 **Note:** Not every search algorithm in the project is completed.
 
 **Example Commands:**
+```
 python pacman.py -l bigMaze -z .5 -p SearchAgent
 python pacman.py -l mediumMaze -p SearchAgent -a fn=bfs
 python pacman.py -l mediumMaze -p SearchAgent -a fn=ucs
 python pacman.py -l bigMaze -z .5 -p SearchAgent -a fn=astar,heuristic=manhattanHeuristic
 python pacman.py -l bigMaze -z .5 -p SearchAgent -a fn=astar,heuristic=euclideanHeuristic
 python pacman.py -l bigMaze -z .5 -p SearchAgent -a fn=astar,heuristic=randomHeuristic
+```
